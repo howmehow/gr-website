@@ -7,20 +7,17 @@
       </v-container>
     </v-main>
 
-    <v-footer
-      :absolute="!fixed"
-      app
-    >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
+  <FooterBar></FooterBar>
   </v-app>
 </template>
 
 <script>
 import NavBar from '../components/NavBar'
+import FooterBar from "@/components/FooterBar";
 export default {
   components: {
     NavBar,
+    FooterBar,
   },
   name: 'DefaultLayout',
   data () {
