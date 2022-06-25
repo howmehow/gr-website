@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello</h1>
+  <h1>Trodel page</h1>
 </template>
 
 <script>

@@ -1,5 +1,7 @@
 <template>
-  <h1>Hello</h1>
+  <h1>Art yoga
+    page
+  </h1>
 </template>
 
 <script>

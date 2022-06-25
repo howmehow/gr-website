@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row>
-      <DirectionLinks></DirectionLinks>
+      <DirectionLinks :top="true"></DirectionLinks>
     </v-row>
     <v-row>
       <v-col>

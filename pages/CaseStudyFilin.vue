@@ -1,10 +1,10 @@
 <template>
-  <h1>Hello</h1>
+  <h1>Hello filin</h1>
 </template>
 
 <script>
 export default {
-  name: "CaseStudyFlin"
+  name: "CaseStudyFilin"
 }
 </script>
 
