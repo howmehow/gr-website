@@ -1,7 +1,6 @@
 <template>
   <v-footer>
-    <h1>Hello</h1>
-    <span>&copy; {{ new Date().getFullYear() }}</span>
+    <p>Created by: <a href="https://github.com/wlodarskiMichal">Michal Wlodarski</a></p>
   </v-footer>
 </template>
 

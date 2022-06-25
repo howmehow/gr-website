@@ -7,19 +7,19 @@
       </v-container>
     </v-main>
 
-  <FooterBar></FooterBar>
+  <TheFooter></TheFooter>
   </v-app>
 </template>
 
 <script>
 import NavBar from '../components/NavBar'
-import FooterBar from "@/components/FooterBar";
+import TheFooter from "@/components/TheFooter";
 export default {
+  name: 'DefaultLayout',
   components: {
     NavBar,
-    FooterBar,
+    TheFooter,
   },
-  name: 'DefaultLayout',
   data () {
 
     return {
@@ -41,7 +41,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Gloria Rossi website'
     }
   }
 }
