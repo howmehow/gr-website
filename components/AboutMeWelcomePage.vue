@@ -7,7 +7,7 @@
       <v-card-text> {{ text }}
       </v-card-text>
     </v-row>
-    <v-row justify="center">
+    <v-row class="my-10" justify="center">
       <v-img
         max-height="150"
         max-width="150" src="/personal/profilePhoto.png"></v-img>

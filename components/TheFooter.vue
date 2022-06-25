@@ -1,6 +1,13 @@
 <template>
   <v-footer>
-    <p>Created by: <a href="https://github.com/wlodarskiMichal">Michal Wlodarski</a></p>
+
+    <v-row>
+      <v-spacer></v-spacer>
+      <ContactMeThrough></ContactMeThrough>
+      <v-spacer></v-spacer>
+    </v-row>
+
+
   </v-footer>
 </template>
 

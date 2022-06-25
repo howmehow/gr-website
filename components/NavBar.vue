@@ -6,27 +6,19 @@
       elevate-on-scroll
       scroll-target="#scrolling-techniques-7"
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-      <v-toolbar-title>Gloria Rossi</v-toolbar-title>
+      <!--      <v-app-bar-nav-icon></v-app-bar-nav-icon>-->
+      <NuxtLink
+        aria-label="Homepage"
+        class=""
+        to="/"
+      >
+        <v-img :src="img"></v-img>
+      </NuxtLink
+      >
 
       <v-spacer></v-spacer>
 
-      <v-btn >
-        Case Studies
-      </v-btn>
-
-      <v-btn >
-        Gallery
-      </v-btn>
-
-      <v-btn >
-        About me
-      </v-btn>
-
-      <v-btn >
-        My CV
-      </v-btn>
+      <DirectionLinks></DirectionLinks>
     </v-app-bar>
     <v-sheet
       id="scrolling-techniques-7"
@@ -41,7 +33,13 @@
 
 <script>
 export default {
-  name: "NavBar"
+  name: "NavBar",
+  data: () => {
+    return {
+      img: 'personal/signature.svg',
+    }
+  }
+
 }
 </script>
 
