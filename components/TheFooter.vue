@@ -1,5 +1,5 @@
 <template>
-  <v-footer>
+  <v-footer class="footerPadding">
 
     <v-row>
       <v-spacer></v-spacer>
@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style scoped>
-
+.footerPadding {
+  margin-top: 300px;
+}
 </style>
