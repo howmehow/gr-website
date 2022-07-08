@@ -39,7 +39,7 @@ export default {
           type: 'UX | UI | Figma | planning |MVP',
           info: 'Time: 2 weeks\n' +
             'Team: Gloria Rossi',
-          img: 'projects/filin/filin.png',
+          img: 'projects/filin/filinHeader.png',
           link: '/',
         },
         {
