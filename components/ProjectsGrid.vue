@@ -2,8 +2,8 @@
   <div>
     <div v-for="project in projects" :key="project.id">
       <v-row>
-        <v-col><a :href="project.link"><img :src='project.img' alt="project-img"></a></v-col>
-        <v-col>
+        <v-col cols="10"><a :href="project.link"><img :src='project.img' alt="project-img"></a></v-col>
+        <v-col cols="2">
           <v-card-title>{{ project.title }}</v-card-title>
           <v-card-text>{{ project.info }}</v-card-text>
         </v-col>
@@ -37,9 +37,9 @@ export default {
           id: 'filin',
           title: 'FILIN',
           type: 'UX | UI | Figma | planning |MVP',
-          info: 'Time: 2 weeks\n' +
+          info: 'Time: 2 weeks \n' +
             'Team: Gloria Rossi',
-          img: 'projects/filin/filinHeader.png',
+          img: 'projects/filin/filin.png',
           link: '/',
         },
         {
