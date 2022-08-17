@@ -123,14 +123,12 @@ export default {
       filinMap: '/projects/filin/filinMap.png',
       filinMap2: '/projects/filin/filinMap2.png',
       filinPersona: '/projects/filin/filinPersona.png'
-
     }
   }
 }
 </script>
 
 <style scoped>
-
 .links-container {
   margin-left: 30%;
   width: 50%;
