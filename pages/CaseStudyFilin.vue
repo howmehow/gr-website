@@ -108,6 +108,19 @@
       <p>Persona. Images: various from Unsplash. Woman:<a href="https://unsplash.com/@kultbrecher">https://unsplash.com/@kultbrecher</a>
       </p>
     </v-container>
+    <v-container class="text-container">
+      <h2 id="brandingMoodBoardStyle">Branding, Moodboard, Style Tile, Style Guide</h2>
+      <p>I wrote down the branding I wanted to represent for my MVP. It does make a difference to have some aspects of
+        the branding clear.</p>
+      <v-img :src="filinBranding2"></v-img>
+      <v-img :src="filinBranding"></v-img>
+      <p>Branding Attributes (Beaver
+        characteristics[https://spiritsofthewestcoast.com/collections/the-beaver-symbol](https://spiritsofthewestcoast.com/collections/the-beaver-symbol))</p>
+      <p>With the moodboard, I chose warm colours and I build a composition that could imply the attributes of the
+        brand. Sport also balances the body and mental health.</p>
+      <v-img :src="filinDancer"></v-img>
+    </v-container>
+
   </div>
 </template>
 
@@ -122,7 +135,10 @@ export default {
       filinBusinessAnalysis: '/projects/filin/filinBusinessAnalysis.png',
       filinMap: '/projects/filin/filinMap.png',
       filinMap2: '/projects/filin/filinMap2.png',
-      filinPersona: '/projects/filin/filinPersona.png'
+      filinPersona: '/projects/filin/filinPersona.png',
+      filinBranding: '/projects/filin/filinBranding.png',
+      filinBranding2: '/projects/filin/filinBranding2.png',
+      filinDancer: '/projects/filin/filinDancer.png'
     }
   }
 }
