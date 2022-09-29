@@ -133,18 +133,14 @@ export default {
   margin-left: 30%;
   width: 50%;
 }
-
 .links {
   margin-left: 20px;
 }
-
 .indent {
   margin-left: 1em;
 }
-
 .text-container {
   padding-left: 20%;
   padding-right: 20%;
 }
-
 </style>
